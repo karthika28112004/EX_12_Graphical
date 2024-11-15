@@ -26,7 +26,7 @@ Program to create and design an android application that draws basic graphical p
 Developed by: KARTHIKA E
 Registeration Number : 212222040072
 ```
-## activity_main.xml
+## Activity_main.xml:
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:layout_height="match_parent"
@@ -37,12 +37,13 @@ Registeration Number : 212222040072
         android:layout_height="match_parent"
         android:id="@+id/ImageView"/>
 </RelativeLayout>
-```
-## MainActivity.java
-```
-package com.example.exp12;
 
-import androidx.appcompat.app.AppCompatActivity;
+
+```
+## MainActivity.java:
+
+```
+package com.example.exno_12;
 
 import android.os.Bundle;
 import android.graphics.Bitmap;
@@ -52,6 +53,9 @@ import android.graphics.Paint;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.widget.ImageView;
+import androidx.appcompat.app.AppCompatActivity;
+
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -76,11 +80,12 @@ public class MainActivity extends AppCompatActivity {
         canvas.drawLine(520, 850, 520, 1150, paint);
 
     }
+
 }
 ```
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/8cbb1a08-453f-494f-b2b8-f2af213c0445)
 
+<img src="https://github.com/user-attachments/assets/480a50db-7a48-44ab-b071-48a109bace95" width=400>
 
 ## RESULT
 Thus a Simple Android Application to create and design an android application that draws basic graphical primitives on the screen using Android Studio is developed and executed successfully.
